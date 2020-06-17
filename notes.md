@@ -1,0 +1,11 @@
+# Notes
+### Initial Thoughts 
+I spent a good amount of time browsing the diary listings to see what I might be interested in investigating. Among a few of my top choices was [Operation War Diary]( http://www.operationwardiary.org/#/), a WW1 diary digitisation initiative. Sadly I am unable to access this resource as it seems to have finished and not made its results public. I was also interested in civil war diaries, and the [diary of George Orwell]( https://orwelldiaries.wordpress.com/). I decided that I would like to examine Orwell’s diaries and see what lies inside. Some of my main questions at the beginning of my research are: How did Orwell’s wartime experience shape his later literary works? Did he comment on authoritarianism in his writings? Did Orwell witness anything he did not agree with during the war? 
+### Extracting and Refining the Data
+I started by using wget to download all the pages on the site that I wanted to analyse. I decided to use entries from March 1942 until the end. This is quite a few entries so I wasn’t surprised when the download took half an hour. 
+
+This didn’t quite work out how I had intended. I got all the code from the website in 35 different files. In order to extract the journal text from this I new it would take a lot of work to comb through each file. Before subjecting myself to that I decided to try something else. I tried the lazy way or just copying all the text on the page, but that didn’t work as it would only copy a certain number of entries. I could copy the entries one page at a time into sublime text then refine them, but that doesn’t feel like the right method to use to show my learning in this course. I could also write a python script to comb through the site data I downloaded and extract the content, but I don’t know if I have time for that. 
+
+After deciding to organize a smaller amount of data myself I decided on a n XML scheme for the data; Date, Content, Comment. I then set to work copying all the data into Sublime and formatting it to CSV (separated by commas). 
+
+After a large amount of manual toiling I have created an Excel workbook from Orwell’s second war diary. Now I can export it to CSV to clean it up for analysis. 
