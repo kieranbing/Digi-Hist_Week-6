@@ -11,3 +11,11 @@ After deciding to organize a smaller amount of data myself I decided on a n XML 
 After a large amount of manual toiling I have created an Excel workbook from Orwell’s second war diary. Now I can export it to CSV to clean it up for analysis. 
 
 I put the exported CSV file into sublime in order to use REGEX to clean it up a little bit. First I wanted to remove all of the “[1]” markers that were added for reference. With the REGEX line “[[][1-9]]” I was able to find and remove them all at once. 
+
+## Analysis 
+I created a new version of the excel document so that I could format it for some data analysis. First I tried to re-import the .csv file I had cleaned up, but was unable to complete the import. Excel wanted to split the data at each new-line as well as comma. So instead of manually deleting all the new lines, I’m going to use the non-clean version of my data for this part of the analysis. 
+
+I want to see how frequently Orwell writes in his diary during these months of the war (March – November, 1942). So the first thing I did was use this formula “=LEN(B2)-LEN(SUBSTITUTE(B2," ",""))+1” to do a wordcount of the content of each diary entry. This should give me a good idea of the volume of writing Orwell did over a specified period. 
+
+I want to be able to organize and analyse my data using dates and time periods, like the months. In order to do this I need to be able to get the date information from my rows. Sadly this is more complicated than it should be. Because of the format of my dates excel does not recognise them. So I need to go and manually replace each date (d.m.y) with excel’s date format (=DATE(y,m,d)). It is going to be tedious, but worth it to properly manipulate my data. 
+
