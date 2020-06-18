@@ -9,3 +9,5 @@ This didn’t quite work out how I had intended. I got all the code from the web
 After deciding to organize a smaller amount of data myself I decided on a n XML scheme for the data; Date, Content, Comment. I then set to work copying all the data into Sublime and formatting it to CSV (separated by commas). 
 
 After a large amount of manual toiling I have created an Excel workbook from Orwell’s second war diary. Now I can export it to CSV to clean it up for analysis. 
+
+I put the exported CSV file into sublime in order to use REGEX to clean it up a little bit. First I wanted to remove all of the “[1]” markers that were added for reference. With the REGEX line “[[][1-9]]” I was able to find and remove them all at once. 
