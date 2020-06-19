@@ -4,6 +4,8 @@ I spent a good amount of time browsing the diary listings to see what I might be
 ### Extracting and Refining the Data
 I started by using wget to download all the pages on the site that I wanted to analyse. I decided to use entries from March 1942 until the end. This is quite a few entries so I wasn’t surprised when the download took half an hour. 
 
+![Screenshot 1](https://github.com/kieranbing/Digi-Hist_Week-6/blob/master/Images/Capture02.PNG "Screenshot of results of wget")
+
 This didn’t quite work out how I had intended. I got all the code from the website in 35 different files. In order to extract the journal text from this I new it would take a lot of work to comb through each file. Before subjecting myself to that I decided to try something else. I tried the lazy way or just copying all the text on the page, but that didn’t work as it would only copy a certain number of entries. I could copy the entries one page at a time into sublime text then refine them, but that doesn’t feel like the right method to use to show my learning in this course. I could also write a python script to comb through the site data I downloaded and extract the content, but I don’t know if I have time for that. 
 
 After deciding to organize a smaller amount of data myself I decided on a n XML scheme for the data; Date, Content, Comment. I then set to work copying all the data into Sublime and formatting it to CSV (separated by commas). 
@@ -22,6 +24,8 @@ I want to be able to organize and analyse my data using dates and time periods, 
 After changing all of the dates to excel format I created a new column to hold the month the entry was written in. I then created a new table with each of the months to gather and analyse data on a month by month bases. I used a sum formula to add up the wordcount for each moth in it respective cell. I then wanted to know which months Orwell wrote most frequently, so I needed to know how many times he wrote a month as well as how often. I ended up manually counting the number of entries in each month after having some trouble using a counting formula. I noticed that the month of August had the most entries by far, yet not the most words. I then went to each date and subtracted the previous date to get the number of days between entries. I hope getting an average of this will give me insight into the frequency of Orwell’s journaling. 
 
 I realized that an average of time between diary entries wouldn’t provide any more information than the number of entries per month did as average time between entries is equal to number of entries over days in the month. 
+
+I also plugged the data into Voyant to see if there was any interesting trends in the writing. Sadly there wasn’t a link between government and propaganda or anything like that, which is what I was hopping for. The most popular word was India, which shows the subject that Orwell was most often writing about. The word cloud also showed that atrocities was a common word, showing that Orwell was thinking about these a lot. I’m sure I could do more if I put it into Ant, but I don’t have time in the scale of this project. 
 
 ### Presentation and Conclusion 
 I turned the data into a table combining the wordcount and number of entries. It shows that on months with lots of entries, Orwell wrote little, and vice versa. Perhaps because there was so much going on he needed to write updated but didn’t have the time to go into detail. 
