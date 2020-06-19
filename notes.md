@@ -26,3 +26,4 @@ I realized that an average of time between diary entries wouldn’t provide any 
 ### Presentation and Conclusion 
 I turned the data into a table combining the wordcount and number of entries. It shows that on months with lots of entries, Orwell wrote little, and vice versa. Perhaps because there was so much going on he needed to write updated but didn’t have the time to go into detail. 
 
+![Graph of Orwell's writting habits](https://github.com/kieranbing/Digi-Hist_Week-6/blob/master/Images/Orwell%20Diary%20Analysis%20v2.PNG "Graph of Orwell's writting habits")
