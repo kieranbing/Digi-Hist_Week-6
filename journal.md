@@ -17,3 +17,5 @@ I plugged the data into Voyant-tools to see if there was any pattern in the word
 ## Presentation and Conclusion
 I decided to present my data in a combined graph, with the wordcount as a bar graph and the number of entries as a line graph. I think it really highlights the comparison I wanted to make, and the difference between how much Orwell wrote and how often. 
 ![Graph of Orwell's writting habits](https://github.com/kieranbing/Digi-Hist_Week-6/blob/master/Images/Orwell%20Diary%20Analysis%20v2.PNG "Graph of Orwell's writting habits")
+
+![Word-cloud of Orwell's second war diary](https://github.com/kieranbing/Digi-Hist_Week-6/blob/master/Images/WordCloud.PNG "Word-cloud of Orwell's second war diary")
