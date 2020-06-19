@@ -9,3 +9,11 @@ I turned Orwell’s second war diary into an excel worksheet. It took a lot of t
 I removed all of the markers, but wasn’t able to re-import that version of the data back into excel without removing all the new lines. It’s a shame, but it reinforces the lesson I’m learning this week, sometimes it’s the small parts of the project that take the most time and effort. 
 ## Analysis 
 I found this part of the process to be both satisfying and frustrating so far. It’s satisfying looking at my data, thinking of a question, then trying to find an answer to that question. What is frustrating is when the software fights me. Sometimes I find that there is no easy way (that I know of) to do something that I think should be simple. Or there is a way to do it, but a formatting problem or something like that gets in the way. I had to do a lot more manual analysis in excel than I though I would. Still, I found it all rather enjoyable, I just wish I had more time to play around with the data and come to meaningful conclusions. 
+
+I think I did a good job with my excel analysis. If I had more time I know I could add more to it and answer more questions. With the time I had though I think I at least answered one question. It’s also all very nicely organized and I think there is lots of ways to make the data work for me even better. There is lots of potential in analysis like this, I just don’t have any more time in the scope of this last week to capitalise on it. 
+
+I plugged the data into Voyant-tools to see if there was any pattern in the wording. The word cloud was surprising. Terms I expected showed up like german and atrocities, but the most popular word was india. This makes sense as Orwell was often in contact with people about Indian affairs. Voyant also links the word government with people, which shows a bit of what Orwell thinks the government should be. 
+
+## Presentation and Conclusion
+I decided to present my data in a combined graph, with the wordcount as a bar graph and the number of entries as a line graph. I think it really highlights the comparison I wanted to make, and the difference between how much Orwell wrote and how often. 
+![Graph of Orwell's writting habits](https://github.com/kieranbing/Digi-Hist_Week-6/blob/master/Images/Orwell%20Diary%20Analysis%20v2.PNG "Graph of Orwell's writting habits")
