@@ -12,7 +12,7 @@ I found this part of the process to be both satisfying and frustrating so far. I
 
 I think I did a good job with my excel analysis. If I had more time I know I could add more to it and answer more questions. With the time I had though I think I at least answered one question. It’s also all very nicely organized and I think there is lots of ways to make the data work for me even better. There is lots of potential in analysis like this, I just don’t have any more time in the scope of this last week to capitalise on it. 
 
-I plugged the data into Voyant-tools to see if there was any pattern in the wording. The word cloud was surprising. Terms I expected showed up like german and atrocities, but the most popular word was india. This makes sense as Orwell was often in contact with people about Indian affairs. Voyant also links the word government with people, which shows a bit of what Orwell thinks the government should be. 
+I plugged the data into Voyant-tools to see if there was any pattern in the wording. The word cloud was surprising. Terms I expected showed up like german and atrocities, but the most popular word was india. This makes sense as Orwell was often in contact with people about Indian affairs. Voyant also links the word government with people, which shows a bit of what Orwell thinks the government should be. I really wish I had a bit longer to dig deeper into this, but sadly I don't. 
 
 ## Presentation and Conclusion
 I decided to present my data in a combined graph, with the wordcount as a bar graph and the number of entries as a line graph. I think it really highlights the comparison I wanted to make, and the difference between how much Orwell wrote and how often. 
